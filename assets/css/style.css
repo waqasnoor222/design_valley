@@ -28445,3 +28445,8 @@
       scale: .8
   }
 }
+
+#gallery .swiper-slide a{
+  display: flex;
+  height: 60px;
+}
