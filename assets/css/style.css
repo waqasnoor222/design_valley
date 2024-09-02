@@ -17668,16 +17668,16 @@
     cursor: pointer;
   }
   .Pricing_main__F_Lcl .Pricing_price-tabs__arUNC ul .Pricing_active__C6fKp {
-    color: #c30010;
-    border-bottom: 1px solid;
+    /* color: #c30010;
+    border-bottom: 1px solid; */
   }
   .Pricing_main__F_Lcl .Pricing_tab-content__WNJ9I {
     margin-top: 50px;
   }
-  .Pricing_main__F_Lcl .Pricing_tab-content__WNJ9I .Pricing_price-grid__ouoPc {
+  /* .Pricing_main__F_Lcl .Pricing_tab-content__WNJ9I .Pricing_price-grid__ouoPc {
     display: none;
     grid-gap: 40px;
-  }
+  } */
   .Pricing_main__F_Lcl
     .Pricing_tab-content__WNJ9I
     .Pricing_price-grid__ouoPc
@@ -18014,6 +18014,7 @@
   .Pricing_main__F_Lcl .Pricing_tab-content__WNJ9I .Pricing_active__C6fKp {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
   }
   @media (max-width: 1400px) {
     .Pricing_main__F_Lcl {
@@ -28449,4 +28450,265 @@
 #gallery .swiper-slide a{
   display: flex;
   height: 60px;
+}
+
+
+.PortfolioSlider_main__t7lBR .swiper-slide{
+  margin-right: 15px !important;
+}
+.OurServices_service-slider__XXIbQ  .swiper-slide{
+  margin-right: 15px !important;
+}
+
+
+
+
+
+.tab-sectionn {
+  display: none;
+}
+
+.tab-sectionn.active {
+  display: block;
+}
+
+.TabButton.active {
+  color: #c30010;
+  border-bottom: 1px solid #c30010; 
+}
+
+
+
+.terms_main__ygNSR .terms_main-info__Vk_q3 h1 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: -3px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.terms_main__ygNSR .terms_main-info__Vk_q3 p {
+  font-family: var(--font-inter);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: #7b7a7a;
+  width: 80%;
+  margin: auto;
+}
+
+.terms_main__ygNSR .terms_main-content__FgsS5 p, .terms_main__ygNSR .terms_main-content__FgsS5 span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #7b7a7a;
+}
+
+.terms_main__ygNSR .terms_main-content__FgsS5 ul li {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #7b7a7a;
+}
+.terms_main__ygNSR .terms_main-content__FgsS5 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+@media(max-width: 1400px) {
+  .terms_main__ygNSR .terms_main-info__Vk_q3 h1 {
+      font-size:45px
+  }
+
+  .terms_main__ygNSR .terms_main-info__Vk_q3 p {
+      font-size: 16px
+  }
+
+  .terms_main__ygNSR .terms_main-content__FgsS5 h4 {
+      font-size: 22px
+  }
+
+  .terms_main__ygNSR .terms_main-content__FgsS5 p,.terms_main__ygNSR .terms_main-content__FgsS5 span,.terms_main__ygNSR .terms_main-content__FgsS5 ul li {
+      font-size: 16px
+  }
+}
+
+@media(max-width: 1200px) {
+  .terms_main__ygNSR .terms_main-info__Vk_q3 h1 {
+      font-size:40px
+  }
+
+  .terms_main__ygNSR .terms_main-info__Vk_q3 p {
+      font-size: 16px
+  }
+
+  .terms_main__ygNSR .terms_main-content__FgsS5 h4 {
+      font-size: 22px
+  }
+
+  .terms_main__ygNSR .terms_main-content__FgsS5 p,.terms_main__ygNSR .terms_main-content__FgsS5 span,.terms_main__ygNSR .terms_main-content__FgsS5 ul li {
+      font-size: 16px
+  }
+}
+
+@media(max-width: 991px) {
+  .terms_main__ygNSR .terms_main-info__Vk_q3 h1 {
+      font-size:35px
+  }
+
+  .terms_main__ygNSR .terms_main-info__Vk_q3 p {
+      font-size: 15px
+  }
+
+  .terms_main__ygNSR .terms_main-content__FgsS5 h4 {
+      font-size: 20px
+  }
+
+  .terms_main__ygNSR .terms_main-content__FgsS5 p,.terms_main__ygNSR .terms_main-content__FgsS5 span,.terms_main__ygNSR .terms_main-content__FgsS5 ul li {
+      font-size: 15px
+  }
+}
+
+@media(max-width: 767px) {
+  .terms_main__ygNSR .terms_main-info__Vk_q3 {
+      text-align:center
+  }
+
+  .terms_main__ygNSR .terms_main-info__Vk_q3 h1 {
+      font-size: 30px
+  }
+
+  .terms_main__ygNSR .terms_main-info__Vk_q3 p {
+      font-size: 14px;
+      width: 100%;
+      line-height: 1.6
+  }
+
+  .terms_main__ygNSR .terms_main-content__FgsS5 {
+      text-align: center
+  }
+
+  .terms_main__ygNSR .terms_main-content__FgsS5 h4 {
+      font-size: 18px;
+      text-align: center
+  }
+
+  .terms_main__ygNSR .terms_main-content__FgsS5 p {
+      font-size: 14px;
+      text-align: center
+  }
+
+  .terms_main__ygNSR .terms_main-content__FgsS5 span {
+      font-size: 14px
+  }
+
+  .terms_main__ygNSR .terms_main-content__FgsS5 ul {
+      padding: 0;
+      list-style: none
+  }
+
+  .terms_main__ygNSR .terms_main-content__FgsS5 ul li {
+      padding: 5px 0;
+      font-size: 14px;
+      text-align: center
+  }
+}
+
+@media(max-width: 400px) {
+  .terms_main__ygNSR .terms_main-info__Vk_q3 h1 {
+      font-size:30px
+  }
+
+  .terms_main__ygNSR .terms_main-info__Vk_q3 p {
+      font-size: 14px
+  }
+
+  .terms_main__ygNSR .terms_main-content__FgsS5 h4 {
+      font-size: 16px
+  }
+
+  .terms_main__ygNSR .terms_main-content__FgsS5 p,.terms_main__ygNSR .terms_main-content__FgsS5 span,.terms_main__ygNSR .terms_main-content__FgsS5 ul li {
+      font-size: 14px
+  }
+}
+
+
+.terms_main__ygNSR .terms_main-content__FgsS5 .terms_red-color__rStA9 {
+  color: #c30010;
+}
+
+
+
+
+.profo_slider_reverse .swiper-wrapper {
+  transform: rotateY(180deg); /* Flip the slider */
+}
+
+.profo_slider_reverse .swiper-slide {
+  transform: rotateY(180deg); /* Flip the slides back to normal */
+}
+
+
+
+
+
+/* preloader ***************  */
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  z-index: 1000;
+}
+
+.spinner {
+  border: 8px solid rgba(0, 0, 0, 0.1);
+  border-left: 8px solid #ad1d1d;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+#content {
+  /* Ensure that your content takes up the whole page */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f0f0;
+}
+
+.preloader_h1 {
+  font-size: 34px;
+  color: #ad1d1d;
+  font-weight: 700;
+  animation: fadeInOut 2s infinite;
+}
+
+@keyframes fadeInOut {
+  0%, 100% {
+      opacity: 0;
+      transform: translateY(-20px);
+  }
+  50% {
+      opacity: 1;
+      transform: translateY(0);
+  }
 }
