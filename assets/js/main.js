@@ -95,13 +95,13 @@ $('#gallery').slick({
       $(document).ready(function() {
         // Swiper: Slider
             new Swiper('.services_slider', {
-                loop: true,
+                loop: false,
                 nextButton: '.swiper-button-next',
                 prevButton: '.swiper-button-prev',
                 slidesPerView: 1,
                 paginationClickable: true,
                 centeredSlides: true,
-                loop: true,
+                loop: false,
                 navigation: false,
                 slidesPerView: 'auto',
                 speed: 4000,
