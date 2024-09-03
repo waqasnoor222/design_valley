@@ -28706,3 +28706,60 @@
 
 
 
+.ecom_service li {
+  color: #7b7a7a;
+  font-family: var(--font-inter);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+
+
+.branding ul {
+    padding-left: 20px;
+    column-count: 2;
+    margin: 10px 0 0;
+}
+.branding ul li{
+  font-family: var(--font-inter);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #7b7a7a;
+}
+
+
+.branding_page_be h2 {
+  font-size: 40px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.branding_page_be .sub_titlee{
+  font-family: var(--font-inter);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: #7b7a7a;
+}
+
+.location_page_bev h2 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 58px;
+  letter-spacing: -3px;
+  text-align: center;
+}
+
+
+.location_page_bev .sub_title{
+  font-family: var(--font-inter);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: #7b7a7a;
+}

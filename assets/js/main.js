@@ -111,21 +111,21 @@ $('#gallery').slick({
 
 
         $(document).ready(function() {
-            // Swiper: Slider
-                new Swiper('.testi_slider', {
-                    loop: true,
-                    nextButton: '.swiper-button-next',
-                    prevButton: '.swiper-button-prev',
-                    slidesPerView: 1,
-                    paginationClickable: true,
-                    centeredSlides: true,
-                    loop: true,
-                    navigation: false,
-                    slidesPerView: 'auto',
-                    slidesPerView: 1,
-                    dots: true,
-                });
-            });
+          // Swiper: Slider
+          new Swiper('.testi_slider', {
+              loop: true,
+              pagination: {
+                  el: '.swiper-pagination',
+                  clickable: true, // Enables clicking on the pagination bullets
+              },
+              centeredSlides: true,
+              slidesPerView: 1,
+              navigation: {
+                  nextEl: '.swiper-button-next',
+                  prevEl: '.swiper-button-prev',
+              },
+          });
+      });
 
 
 
