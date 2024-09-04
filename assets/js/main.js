@@ -192,7 +192,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
     tabButtons.forEach(button => {
         button.addEventListener('click', () => {
-            const targetTab = button.getAttribute('data-tab1');
+            const targetTab = button.getAttribute('data-tab');
   
             // Remove active class from all buttons and sections
             tabButtons.forEach(btn => btn.classList.remove('active1'));
@@ -200,14 +200,14 @@ document.addEventListener('DOMContentLoaded', function() {
   
             // Add active class to the clicked button and the corresponding section
             button.classList.add('active1');
-            document.querySelector(`.tab-sectionn1[data-tab1="${targetTab}"]`).classList.add('active1');
+            document.querySelector(`.tab-sectionn1[data-tab="${targetTab}"]`).classList.add('active1');
         });
     });
   
     // Activate the first tab and section by default
     if (tabButtons[0] && tabSections[0]) {
-        tabButtons[0].classList.add('active');
-        tabSections[0].classList.add('active');
+        tabButtons[0].classList.add('active1');
+        tabSections[0].classList.add('active1');
     }
   });
 

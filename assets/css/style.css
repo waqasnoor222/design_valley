@@ -26189,7 +26189,7 @@
 }
 
 .PortfolioTabs_main__x3NG7 .PortfolioTabs_tab-content__UZ2L3 .PortfolioTabs_images-grid__VTe_k {
-    display: none
+    /* display: none */
 }
 
 .PortfolioTabs_main__x3NG7 .PortfolioTabs_tab-content__UZ2L3 .PortfolioTabs_images-grid__VTe_k a {
@@ -28491,6 +28491,19 @@
   border-bottom: 1px solid #c30010; 
 }
 
+
+.tab-sectionn1 {
+  display: none;
+}
+
+.tab-sectionn1.active1 {
+  display: grid;
+}
+
+.TabButton1.active1 {
+  color: #c30010;
+  border-bottom: 1px solid #c30010; 
+}
 
 
 .terms_main__ygNSR .terms_main-info__Vk_q3 h1 {
