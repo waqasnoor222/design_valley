@@ -29436,3 +29436,19 @@
   margin: 11px;
 
 }
+
+
+.slick-prev {
+  left: 75px !important;
+  z-index: 9 !important;
+}
+
+.slick-next:before, .slick-prev:before {
+  font-size: 50px !important;
+  color: #505050 !important;
+}
+
+.slick-next {
+  right: 125px !important;
+  z-index: 999 !important;
+}

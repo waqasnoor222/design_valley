@@ -23,7 +23,7 @@ $('.port_service').slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     draggable: true,
     speed: 200,
     autoplaySpeed: 1000,
@@ -178,6 +178,38 @@ document.addEventListener('DOMContentLoaded', function() {
       tabSections[0].classList.add('active');
   }
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const tabButtons = document.querySelectorAll('.TabButton1');
+    const tabSections = document.querySelectorAll('.tab-sectionn1');
+  
+    // Ensure we have found the elements
+    if (tabButtons.length === 0 || tabSections.length === 0) {
+        console.error("Tab buttons or sections not found.");
+        return;
+    }
+  
+    tabButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const targetTab = button.getAttribute('data-tab1');
+  
+            // Remove active class from all buttons and sections
+            tabButtons.forEach(btn => btn.classList.remove('active1'));
+            tabSections.forEach(section => section.classList.remove('active1'));
+  
+            // Add active class to the clicked button and the corresponding section
+            button.classList.add('active1');
+            document.querySelector(`.tab-sectionn1[data-tab1="${targetTab}"]`).classList.add('active1');
+        });
+    });
+  
+    // Activate the first tab and section by default
+    if (tabButtons[0] && tabSections[0]) {
+        tabButtons[0].classList.add('active');
+        tabSections[0].classList.add('active');
+    }
+  });
 
 
 document.addEventListener("DOMContentLoaded", function() {
