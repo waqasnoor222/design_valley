@@ -1,5 +1,5 @@
 .rfm-marquee-container {
-  overflow-x: hidden;
+  overflow: hidden;
   display: flex;
   flex-direction: row;
   position: relative;
