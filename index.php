@@ -634,8 +634,8 @@
                                         </ul>
                                     </div>
                                     <div class="Pricing_btn-info__Ql0m9">
-                                        <button name="0" value="$129" id="0"
-                                            class="Button_btn__CsQ0G undefined openpricePopupBtn">Order Now</button><a
+                                        <button name="0" value="$129" id=""
+                                            class="Button_btn__CsQ0G undefined openpricePopupBtn myButton">Order Now</button><a
                                             class="Button_btn__CsQ0G  undefined" href="portfolio.html">View
                                             Portfolio</a>
                                     </div>
@@ -663,8 +663,8 @@
                                         </ul>
                                     </div>
                                     <div class="Pricing_btn-info__Ql0m9">
-                                        <button name="0" value="$199" id="1"
-                                            class="Button_btn__CsQ0G undefined openpricePopupBtn">Order Now</button><a
+                                        <button name="0" value="$199" id=""
+                                            class="Button_btn__CsQ0G undefined openpricePopupBtn myButton">Order Now</button><a
                                             class="Button_btn__CsQ0G  undefined" href="portfolio.html">View
                                             Portfolio</a>
                                     </div>
@@ -693,8 +693,8 @@
                                         </ul>
                                     </div>
                                     <div class="Pricing_btn-info__Ql0m9">
-                                        <button name="0" value="$299" id="2"
-                                            class="Button_btn__CsQ0G undefined openpricePopupBtn">Order Now</button><a
+                                        <button name="0" value="$299" id=""
+                                            class="Button_btn__CsQ0G undefined openpricePopupBtn myButton">Order Now</button><a
                                             class="Button_btn__CsQ0G  undefined" href="portfolio.html">View
                                             Portfolio</a>
                                     </div>
@@ -723,8 +723,8 @@
                                         </ul>
                                     </div>
                                     <div class="Pricing_btn-info__Ql0m9">
-                                        <button name="0" value="$999" id="0"
-                                            class="Button_btn__CsQ0G undefined openpricePopupBtn">Order Now</button><a
+                                        <button name="0" value="$699" id="0"
+                                            class="Button_btn__CsQ0G undefined openpricePopupBtn myButton">Order Now</button><a
                                             class="Button_btn__CsQ0G  undefined" href="portfolio.html">View
                                             Portfolio</a>
                                     </div>
@@ -751,8 +751,8 @@
                                         </ul>
                                     </div>
                                     <div class="Pricing_btn-info__Ql0m9">
-                                        <button name="0" value="$199" id="1"
-                                            class="Button_btn__CsQ0G undefined openpricePopupBtn">Order Now</button><a
+                                        <button name="0" value="$999" id="1"
+                                            class="Button_btn__CsQ0G undefined openpricePopupBtn myButton">Order Now</button><a
                                             class="Button_btn__CsQ0G  undefined" href="portfolio.html">View
                                             Portfolio</a>
                                     </div>
@@ -778,8 +778,8 @@
                                         </ul>
                                     </div>
                                     <div class="Pricing_btn-info__Ql0m9">
-                                        <button name="0" value="$299" id="2"
-                                            class="Button_btn__CsQ0G undefined openpricePopupBtn">Order Now</button><a
+                                        <button name="0" value="$1299" id="2"
+                                            class="Button_btn__CsQ0G undefined openpricePopupBtn myButton">Order Now</button><a
                                             class="Button_btn__CsQ0G  undefined" href="portfolio.html">View
                                             Portfolio</a>
                                     </div>
@@ -809,8 +809,8 @@
                                         </ul>
                                     </div>
                                     <div class="Pricing_btn-info__Ql0m9">
-                                        <button name="0" value="$129" id="0"
-                                            class="Button_btn__CsQ0G undefined openpricePopupBtn">Order Now</button><a
+                                        <button name="0" value="$799" id="0"
+                                            class="Button_btn__CsQ0G undefined openpricePopupBtn myButton">Order Now</button><a
                                             class="Button_btn__CsQ0G  undefined" href="portfolio.html">View
                                             Portfolio</a>
                                     </div>
@@ -835,8 +835,8 @@
                                         </ul>
                                     </div>
                                     <div class="Pricing_btn-info__Ql0m9">
-                                        <button name="0" value="$199" id="1"
-                                            class="Button_btn__CsQ0G undefined openpricePopupBtn">Order Now</button><a
+                                        <button name="0" value="$1499" id="1"
+                                            class="Button_btn__CsQ0G undefined openpricePopupBtn myButton">Order Now</button><a
                                             class="Button_btn__CsQ0G  undefined" href="portfolio.html">View
                                             Portfolio</a>
                                     </div>
@@ -863,8 +863,8 @@
                                         </ul>
                                     </div>
                                     <div class="Pricing_btn-info__Ql0m9">
-                                        <button name="0" value="$299" id="2"
-                                            class="Button_btn__CsQ0G undefined openpricePopupBtn">Order Now</button><a
+                                        <button name="0" value="$2199" id="2"
+                                            class="Button_btn__CsQ0G undefined openpricePopupBtn myButton">Order Now</button><a
                                             class="Button_btn__CsQ0G  undefined" href="portfolio.html">View
                                             Portfolio</a>
                                     </div>
@@ -936,7 +936,7 @@
                                         </div>
                                         <div class="Pricing_btn-info__Ql0m9">
                                             <button name="3" value="$1499" id="0"
-                                                class="Button_btn__CsQ0G undefined openpricePopupBtn">Order
+                                                class="Button_btn__CsQ0G undefined openpricePopupBtn myButton">Order
                                                 Now</button><a class="Button_btn__CsQ0G  undefined"
                                                 href="portfolio.html">View Portfolio</a>
                                         </div>
@@ -1404,8 +1404,6 @@
 
 
    
-
-
 <?php 
  include 'include/footer.php';
 ?>

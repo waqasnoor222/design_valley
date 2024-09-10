@@ -1,33 +1,4 @@
 
-<div class="Popup_modal-bg__Lz_fl popup" id="myPopup">
-        <div class="Popup_modal-overlay__iwl79"></div>
-        <div class="Popup_modal-align__74iCk">
-            <div class="Popup_modal-content__KbIKN "><span id="closePopupBtn" class="Popup_close-btn__lN5gL "><svg
-                        stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512"
-                        arial-label="Close modal" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="m289.94 256 95-95A24 24 0 0 0 351 127l-95 95-95-95a24 24 0 0 0-34 34l95 95-95 95a24 24 0 1 0 34 34l95-95 95 95a24 24 0 0 0 34-34z">
-                        </path>
-                    </svg></span>
-                <div class="Popup_modal-content-align___la4t ">
-                    <div class="PopupForm_main-popup-from__hX6v7">
-                        <div class="PopupForm_main-grid__aqvQG">
-                            <div class="PopupForm_left-info__tbKOA">
-                                <img alt="logo" loading="lazy" width="150" height="61" decoding="async" data-nimg="1"
-                                    srcset="assets/images/logo_american.png" src="assets/images/logo_american.png"
-                                    style="color: transparent;">
-
-                                <div class="PopupForm_box-grid__IPfAW">
-                                    <h2>9.7k+</h2>
-                                    <p>Very satisfied clients
-                                        <br>around the worldwide.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="PopupForm_right-info__34Thp">
-                                <h2>Sign Up Now</h2>
-                                <h4>To Avail Exclusive Discounts</h4>
-                                <p>Fill out the form below with your details to start conversation with our experts.</p>
 <form action="email.php" method="POST" class="PopupForm_popupForm__Ew0Vk popup-main-form" novalidate>
     <div class="PopupForm_inputField__Y_4nR">
         <div class="PopupForm_input-flex__HUi23 undefined">
@@ -315,10 +286,3 @@
     <button type="submit" class="Button_btn__CsQ0G undefined">Lets Make a Deal</button>
 </form>
 
-</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
