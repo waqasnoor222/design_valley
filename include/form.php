@@ -11,7 +11,7 @@
 
 
 
-<form id="popupForm" method="POST" class="PopupForm_popupForm__Ew0Vk popup-main-form">
+
 <input type="hidden" id="packagePrice" name="packagePrice" value="">
 <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
 
@@ -40,7 +40,7 @@
         </div>
     </div>
     <button type="submit" class="Button_btn__CsQ0G undefined">Lets Make a Deal</button>
-</form>
+
 
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

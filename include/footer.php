@@ -239,10 +239,10 @@
                             <h2>Sign Up Now</h2>
                             <h4>To Avail Exclusive Discounts</h4>
                             <p>Fill out the form below with your details to start conversation with our experts.</p>
-
+                            <form id="popupForm" method="POST" class="PopupForm_popupForm__Ew0Vk popup-main-form">
                             <?php include_once 'include/form.php'; ?>
 
-
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -281,7 +281,9 @@
                             <h4>Valley Bronze <span id="myHeading" style="color: #c30010;font-weight: 600;">$129</span>
                             </h4>
                             <p>Fill out the form below with your details to start conversation with our experts.</p>
+                            <form id="popupForm" method="POST" class="PopupForm_popupForm__Ew0Vk popup-main-form">
                             <?php include_once 'include/form.php'; ?>
+                        </form>
                         </div>
                     </div>
                 </div>
