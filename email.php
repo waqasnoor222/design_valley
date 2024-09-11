@@ -51,7 +51,7 @@ if (1==1) {
     $sendSmtpEmail = new SendSmtpEmail([
         'subject' => 'New Form Submission',
         'sender' => ['email' => 'leads@americanlogoagency.com', 'name' => 'Your Name'],
-        'to' => [['email' => 'ali.haider@meezotech.com', 'name' => 'Recipient Name']],
+        'to' => [['email' => 'info@americanlogoagency.com', 'name' => 'Recipient Name']],
         'htmlContent' => "
             <h1>New Form Submission</h1>
             <p><strong>Name:</strong> $firstName</p>
@@ -67,7 +67,10 @@ if (1==1) {
     try {
         // Send the email
         $apiInstance->sendTransacEmail($sendSmtpEmail);
-        header('Location: thanks.php');
+        echo json_encode([
+            'status' => 'success',
+            'message' => 'Form submitted successfully. Thank you!'
+        ]);
     } catch (Exception $e) {
         echo json_encode([
             'status' => 'error',
