@@ -10,7 +10,7 @@ use GuzzleHttp\Client;
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 // Configure the API client with your Brevo API key
-$config = Configuration::getDefaultConfiguration()->setApiKey('api-key', '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');
+// $config = Configuration::getDefaultConfiguration()->setApiKey('api-key', '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');
 
 // Create an instance of the API class
 $apiInstance = new TransactionalEmailsApi(
