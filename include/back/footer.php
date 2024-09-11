@@ -240,8 +240,9 @@
                             <h4>To Avail Exclusive Discounts</h4>
                             <p>Fill out the form below with your details to start conversation with our experts.</p>
 
-                            <?php include_once 'include/form.php'; ?>
-
+                            <?php
+                            include 'include/form.php';
+                            ?>
 
                         </div>
                     </div>
@@ -281,7 +282,9 @@
                             <h4>Valley Bronze <span id="myHeading" style="color: #c30010;font-weight: 600;">$129</span>
                             </h4>
                             <p>Fill out the form below with your details to start conversation with our experts.</p>
-                            <?php include_once 'include/form.php'; ?>
+                            <?php
+                            include 'include/form.php';
+                            ?>
                         </div>
                     </div>
                 </div>
@@ -404,14 +407,6 @@
 
             button.addEventListener('click', function () {
                 // Get the value from the button's value attribute
-
-                // Generate reCAPTCHA token when the button is clicked
-                    grecaptcha.ready(function() {
-                        grecaptcha.execute('YOUR_SITE_KEY', { action: 'submit' }).then(function(token) {
-                            // Set the token in the hidden input field
-                            document.getElementById('g-recaptcha-response').value = token;
-                        });
-                    });
 
                 var price = this.value;
                 // Check if the hidden input exists

@@ -14832,7 +14832,9 @@ a {
   color: #7b7a7a;
   margin: 0;
 }
-
+.wrapper-2 p {
+  font-family: var(--font-inter);
+}
 .Footer_main-footer__k5FIT .Footer_footer-grid__jDrWx .Footer_left-info__OI_PT .Footer_grid-info__IhKD6 p a {
   font-size: 16px;
   color: #7b7a7a;
