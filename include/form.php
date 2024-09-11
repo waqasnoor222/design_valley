@@ -9,6 +9,9 @@
 <!-- <input type="tel" id="phone"> -->
 
 
+<!-- <script src="https://www.google.com/recaptcha/api.js?render=6LeXXj4qAAAAAL-DnnKp9qZDlcDFDmDsYFUeJhxs"></script> -->
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 
 <form action="email.php" method="POST" class="PopupForm_popupForm__Ew0Vk popup-main-form">
@@ -39,6 +42,7 @@
             <textarea rows="4" name="message" placeholder="Your message" type="text" class="form-control" id="message"></textarea>
         </div>
     </div>
+    <div class="g-recaptcha" data-sitekey="6LeXXj4qAAAAAL-DnnKp9qZDlcDFDmDsYFUeJhxs"></div>
     <button type="submit" class="Button_btn__CsQ0G undefined">Lets Make a Deal</button>
 </form>
 

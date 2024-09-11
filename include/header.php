@@ -57,7 +57,7 @@
         async=""></script>
     <script src="./Custom Logo Design Company and Professional Logo Design Services_files/page-7d5077c1fd1ee09d.js"
         async=""></script>
-        <script src="https://www.google.com/recaptcha/api.js?render=6LeXXj4qAAAAAL-DnnKp9qZDlcDFDmDsYFUeJhxs"></script>
+        <!-- <script src="https://www.google.com/recaptcha/api.js?render=6LeXXj4qAAAAAL-DnnKp9qZDlcDFDmDsYFUeJhxs"></script> -->
 
        
 
