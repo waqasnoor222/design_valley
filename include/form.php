@@ -1,8 +1,10 @@
 
 <form action="email.php" method="POST" class="PopupForm_popupForm__Ew0Vk popup-main-form" novalidate>
+<input type="hidden" id="packagePrice" name="packagePrice" value="">
     <div class="PopupForm_inputField__Y_4nR">
         <div class="PopupForm_input-flex__HUi23 undefined">
-            <input placeholder="Your name*" class="form-control" type="text" value="" name="firstName">
+            <input placeholder="Your name*" class="form-control" type="text" value="" name="firstName" required id="firstName">
+            <span class="error-message" id="nameError"></span>
         </div>
     </div>
     <div class="PopupForm_inputField__Y_4nR">
@@ -14,7 +16,7 @@
         <div class="PopupForm_input-flex__HUi23 PopupForm_call__go4Gw">
             <div class="PhoneInput">
                 <div class="PhoneInputCountry">
-                    <select aria-label="Phone number country" class="PhoneInputCountrySelect">
+                    <select aria-label="Phone number country" name="countryCode" class="PhoneInputCountrySelect">
                         <option value="ZZ">International</option>
                         <option value="AF">Afghanistan</option>
                         <option value="AX">Åland Islands</option>
@@ -268,7 +270,7 @@
                     </div>
                     <div class="PhoneInputCountrySelectArrow"></div>
                 </div>
-                <input autocomplete="tel" placeholder="Enter phone number*" class="PhoneInputInput" type="tel"
+                <input autocomplete="tel" placeholder="Enter phone number*" class="PhoneInputInput" type="tel" name="phone"
                     value="+1">
             </div>
         </div>
@@ -285,4 +287,6 @@
     </div>
     <button type="submit" class="Button_btn__CsQ0G undefined">Lets Make a Deal</button>
 </form>
+
+
 

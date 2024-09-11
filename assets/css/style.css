@@ -30119,3 +30119,11 @@ hr {
 .Header_active__rWiBf{
   color: green !important;
 }
+
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+  display: none;
+}

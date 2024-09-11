@@ -25,6 +25,12 @@ $phone = $_POST['phone'] ?? 'Not provided';
 $budget = $_POST['budget'] ?? 'Not provided';
 $message = $_POST['message'] ?? 'Not provided';
 
+// Access packagePrice from the form
+$packagePrice = $_POST['packagePrice'] ?? null;
+
+// For debugging, you can echo or log the received values
+
+
 // Set up the email details
  // Set up the email details
  $sendSmtpEmail = new SendSmtpEmail([
