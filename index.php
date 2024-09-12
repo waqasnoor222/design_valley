@@ -618,7 +618,7 @@
                                         <div class="Pricing_discount__l_IBQ">
                                             <p><span>SAVE</span> $70</p>
                                         </div>
-                                        <h4 id="packageName">American Bronze</h4>
+                                        <!-- <h4 id="packageName"></h4> -->
                                         <h2>$129</h2>
                                         <h6>$199</h6>
                                         <ul>
@@ -634,7 +634,7 @@
                                         </ul>
                                     </div>
                                     <div class="Pricing_btn-info__Ql0m9">
-                                        <button name="0" value="$129" id="packageNameButton"
+                                        <button name="0" value="American Bronze $129" id="packageNameButton"
                                             class="Button_btn__CsQ0G undefined openpricePopupBtn myButton">Order Now</button><a
                                             class="Button_btn__CsQ0G  undefined" href="portfolio.html">View
                                             Portfolio</a>
@@ -663,7 +663,7 @@
                                         </ul>
                                     </div>
                                     <div class="Pricing_btn-info__Ql0m9">
-                                        <button name="0" value="$199" id=""
+                                        <button name="0" value="American Silver $199" id=""
                                             class="Button_btn__CsQ0G undefined openpricePopupBtn myButton">Order Now</button><a
                                             class="Button_btn__CsQ0G  undefined" href="portfolio.html">View
                                             Portfolio</a>
@@ -693,7 +693,7 @@
                                         </ul>
                                     </div>
                                     <div class="Pricing_btn-info__Ql0m9">
-                                        <button name="0" value="$299" id=""
+                                        <button name="0" value="American Gold $299" id=""
                                             class="Button_btn__CsQ0G undefined openpricePopupBtn myButton">Order Now</button><a
                                             class="Button_btn__CsQ0G  undefined" href="portfolio.html">View
                                             Portfolio</a>
@@ -723,7 +723,7 @@
                                         </ul>
                                     </div>
                                     <div class="Pricing_btn-info__Ql0m9">
-                                        <button name="0" value="$699" id="0"
+                                        <button name="0" value="American Bronze $699" id="0"
                                             class="Button_btn__CsQ0G undefined openpricePopupBtn myButton">Order Now</button><a
                                             class="Button_btn__CsQ0G  undefined" href="portfolio.html">View
                                             Portfolio</a>
@@ -751,7 +751,7 @@
                                         </ul>
                                     </div>
                                     <div class="Pricing_btn-info__Ql0m9">
-                                        <button name="0" value="$999" id="1"
+                                        <button name="0" value="American Silver $999" id="1"
                                             class="Button_btn__CsQ0G undefined openpricePopupBtn myButton">Order Now</button><a
                                             class="Button_btn__CsQ0G  undefined" href="portfolio.html">View
                                             Portfolio</a>
@@ -778,7 +778,7 @@
                                         </ul>
                                     </div>
                                     <div class="Pricing_btn-info__Ql0m9">
-                                        <button name="0" value="$1299" id="2"
+                                        <button name="0" value="American Gold $1299" id="2"
                                             class="Button_btn__CsQ0G undefined openpricePopupBtn myButton">Order Now</button><a
                                             class="Button_btn__CsQ0G  undefined" href="portfolio.html">View
                                             Portfolio</a>
@@ -809,7 +809,7 @@
                                         </ul>
                                     </div>
                                     <div class="Pricing_btn-info__Ql0m9">
-                                        <button name="0" value="$799" id="0"
+                                        <button name="0" value="American Bronze $799" id="0"
                                             class="Button_btn__CsQ0G undefined openpricePopupBtn myButton">Order Now</button><a
                                             class="Button_btn__CsQ0G  undefined" href="portfolio.html">View
                                             Portfolio</a>
@@ -820,7 +820,7 @@
                                         <div class="Pricing_discount__l_IBQ">
                                             <p><span>SAVE</span> $200</p>
                                         </div>
-                                        <h4>Valley Silver</h4>
+                                        <h4>American Silver</h4>
                                         <h2>$1499</h2>
                                         <h6>$1699</h6>
                                         <ul>
@@ -835,7 +835,7 @@
                                         </ul>
                                     </div>
                                     <div class="Pricing_btn-info__Ql0m9">
-                                        <button name="0" value="$1499" id="1"
+                                        <button name="0" value="American Silver $1499" id="1"
                                             class="Button_btn__CsQ0G undefined openpricePopupBtn myButton">Order Now</button><a
                                             class="Button_btn__CsQ0G  undefined" href="portfolio.html">View
                                             Portfolio</a>
@@ -846,7 +846,7 @@
                                         <div class="Pricing_discount__l_IBQ">
                                             <p><span>SAVE</span> $200</p>
                                         </div>
-                                        <h4>Valley Gold</h4>
+                                        <h4>American Gold</h4>
                                         <h2>$2199</h2>
                                         <h6>$2399</h6>
                                         <ul>
@@ -863,7 +863,7 @@
                                         </ul>
                                     </div>
                                     <div class="Pricing_btn-info__Ql0m9">
-                                        <button name="0" value="$2199" id="2"
+                                        <button name="0" value="American Gold $2199" id="2"
                                             class="Button_btn__CsQ0G undefined openpricePopupBtn myButton">Order Now</button><a
                                             class="Button_btn__CsQ0G  undefined" href="portfolio.html">View
                                             Portfolio</a>
@@ -935,7 +935,7 @@
                                             <p>Want To Discuss ?</p>
                                         </div>
                                         <div class="Pricing_btn-info__Ql0m9">
-                                            <button name="3" value="$1499" id="0"
+                                            <button name="3" value="All In One $1499" id="0"
                                                 class="Button_btn__CsQ0G undefined openpricePopupBtn myButton">Order
                                                 Now</button><a class="Button_btn__CsQ0G  undefined"
                                                 href="portfolio.html">View Portfolio</a>

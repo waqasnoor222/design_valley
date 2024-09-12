@@ -284,7 +284,7 @@
                         </div>
                         <div class="PopupForm_right-info__34Thp">
                             <h2>Order Now</h2>
-                            <h4>Valley Bronze <span id="myHeading" style="color: #c30010;font-weight: 600;">$129</span>
+                            <h4> <span id="myHeading" style="color: #c30010;font-weight: 600;">$129</span>
                             </h4>
                             <p>Fill out the form below with your details to start conversation with our experts.</p>
                             <form id="popupForm" method="POST" class="PopupForm_popupForm__Ew0Vk popup-main-form">
