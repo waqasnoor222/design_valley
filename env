@@ -1,0 +1,9 @@
+BREVO_API_KEY=your_brevo_api_key_here
+SENDINBLUE_API_KEY=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
+
+
+
+SMTP_HOST=smtp-relay.brevo.com
+SMTP_PORT=587
+SMTP_USER=7bcb4a001@smtp-brevo.com
+SMTP_PASS=fI7xMLN2UEBRwbmZ
