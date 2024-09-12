@@ -35,7 +35,7 @@ if (1==1) {
     $packagePrice = $_POST['packagePrice'] ?? 'Not provided'; // Ensure this matches your form field
 
     // Configure the Brevo API client
-    $config = Configuration::getDefaultConfiguration()->setApiKey('api-key', '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');
+    $config = Configuration::getDefaultConfiguration()->setApiKey('api-key', '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');
     $apiInstance = new TransactionalEmailsApi(new Client(), $config);
 
     // Set up the email details
