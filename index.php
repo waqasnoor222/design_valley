@@ -618,7 +618,7 @@
                                         <div class="Pricing_discount__l_IBQ">
                                             <p><span>SAVE</span> $70</p>
                                         </div>
-                                        <h4>American Bronze</h4>
+                                        <h4 id="packageName">American Bronze</h4>
                                         <h2>$129</h2>
                                         <h6>$199</h6>
                                         <ul>
@@ -634,7 +634,7 @@
                                         </ul>
                                     </div>
                                     <div class="Pricing_btn-info__Ql0m9">
-                                        <button name="0" value="$129" id=""
+                                        <button name="0" value="$129" id="packageNameButton"
                                             class="Button_btn__CsQ0G undefined openpricePopupBtn myButton">Order Now</button><a
                                             class="Button_btn__CsQ0G  undefined" href="portfolio.html">View
                                             Portfolio</a>

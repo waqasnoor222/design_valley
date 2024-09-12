@@ -361,6 +361,20 @@
             document.getElementById('myHeading').textContent = buttonValue; // Update the h3 element with the button value
         });
     });
+   
+
+</script>
+
+
+<script>
+     const button = document.getElementById('packageNameButton');
+    const element = document.getElementById('packageName');
+    packageNameButton.addEventListener('click', function() {
+            // Element ka text get karo
+            const elementText = element.textContent;
+            console.log('Element ka text:', elementText);
+            alert('Element ka text: ' + elementText);
+        });
 </script>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
