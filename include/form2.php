@@ -11,7 +11,7 @@
 
 
 
-<input type="text" id="packagePrice2" name="packagePrice" value="">
+<!-- <input type="text" id="packagePrice2" name="packagePrice" value=""> -->
 <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
 
     <div class="PopupForm_inputField__Y_4nR">
