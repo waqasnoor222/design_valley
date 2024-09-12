@@ -79,18 +79,20 @@
 
 
     $(document).ready(function() {
-    $('#popupForm, #formSignupPopup').off('submit').on('submit', function(e) {
+    $('#contactForm').off('submit').on('submit', function(e) {
         e.preventDefault(); // Prevent the form from submitting in the traditional way
         
         // Validate the form
+
+        console.log($(this).find('.firstName').val());
+
 
             // Scope the selectors to this specific form
         let firstName = $(this).find('.firstName').val().trim();
         let email = $(this).find('.cemail').val().trim();
         let phone = $(this).find('.phone').val().trim();
-        let budget = $(this).find('.budget').val().trim();
 
-        if (!validateForm(firstName, email, phone, budget)) {
+        if (!validateForm(firstName, email, phone)) {
             return false;
         }
 
@@ -108,16 +110,16 @@
             data: formData,
             success: function(response) {
                 window.location.href = 'thanks.php';
-                if (response.status == 'success') {
-                    window.location.href = 'thanks.php';
-                } else {
-                    Swal.fire({
-                        icon: 'error',
-                        title: 'Oops...',
-                        text: response.message,
-                        confirmButtonText: 'OK'
-                    });
-                }
+                // if (response.status == 'success') {
+                //     window.location.href = 'thanks.php';
+                // } else {
+                //     Swal.fire({
+                //         icon: 'error',
+                //         title: 'Oops...',
+                //         text: response.message,
+                //         confirmButtonText: 'OK'
+                //     });
+                // }
                 // Re-enable the submit button
                 $(this).find('button[type="submit"]').attr('disabled', false);
             },
@@ -168,15 +170,7 @@
             return false;
         }
 
-        if (budget === "" || isNaN(budget) || parseFloat(budget) <= 0) {
-            Swal.fire({
-                icon: 'warning',
-                title: 'Validation Error',
-                text: 'Please enter a valid budget.',
-                confirmButtonText: 'OK'
-            });
-            return false;
-        }
+        
 
         return true;
     }
