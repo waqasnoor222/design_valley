@@ -11,36 +11,33 @@
 
 
 
-
 <input type="hidden" id="packagePrice" name="packagePrice" value="">
 <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
 
     <div class="PopupForm_inputField__Y_4nR">
         <div class="PopupForm_input-flex__HUi23 undefined">
-            <input placeholder="Your name*" class="form-control" type="text" value="" name="firstName" required id="firstName">
+            <input placeholder="Your name*" class="form-control firstName" type="text" value="" name="firstName" required id="firstName">
             <span class="error-message" id="nameError"></span>
         </div>
     </div>
     <div class="PopupForm_inputField__Y_4nR">
         <div class="PopupForm_input-flex__HUi23 PopupForm_email__DbL35">
-            <input placeholder="Your email address*" class="form-control" type="email" value="" name="cemail" id="cemail">
+            <input placeholder="Your email address*" class="form-control cemail" type="email" value="" name="cemail" id="cemail">
         </div>
     </div>
     <div class="PopupForm_inputField__Y_4nR">
-        <input type="tel" id="phone" name="countryCode">
+        <input type="tel" id="phone" name="countryCode" class="phone">
     </div>
     <div class="PopupForm_inputField__Y_4nR">
         <div class="PopupForm_input-flex__HUi23 PopupForm_budget__D5oUs">
-            <input min="1" placeholder="Your Budget" class="form-control" type="number" value="" name="budget" id="budget">
+            <input min="1" placeholder="Your Budget" class="form-control budget" type="number" value="" name="budget" id="budget">
         </div>
     </div>
     <div class="PopupForm_inputField__Y_4nR">
         <div class="PopupForm_input-flex__HUi23 PopupForm_message__UCI8V">
-            <textarea rows="4" name="message" placeholder="Your message" type="text" class="form-control" id="message"></textarea>
+            <textarea rows="4" name="message" placeholder="Your message" type="text" class="form-control message" id="message"></textarea>
         </div>
     </div>
-    <button type="submit" class="Button_btn__CsQ0G undefined">Lets Make a Deal</button>
-
 
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -56,14 +53,22 @@
 
 
     $(document).ready(function() {
-    $('#popupForm').on('submit', function(e) {
+    $('#popupForm, #formSignupPopup').off('submit').on('submit', function(e) {
         e.preventDefault(); // Prevent the form from submitting in the traditional way
         
         // Validate the form
-        if (!validateForm()) {
+
+            // Scope the selectors to this specific form
+        let firstName = $(this).find('.firstName').val().trim();
+        let email = $(this).find('.cemail').val().trim();
+        let phone = $(this).find('.phone').val().trim();
+        let budget = $(this).find('.budget').val().trim();
+
+        if (!validateForm(firstName, email, phone, budget)) {
             return false;
         }
 
+     
         // Disable the submit button to prevent multiple clicks
         $(this).find('button[type="submit"]').attr('disabled', true);
 
@@ -87,7 +92,7 @@
                     });
                 }
                 // Re-enable the submit button
-                $('#popupForm').find('button[type="submit"]').attr('disabled', false);
+                $(this).find('button[type="submit"]').attr('disabled', false);
             },
             error: function(xhr, status, error) {
                 Swal.fire({
@@ -98,17 +103,12 @@
                 });
 
                 // Re-enable the submit button
-                $('#popupForm').find('button[type="submit"]').attr('disabled', false);
+                $(this).find('button[type="submit"]').attr('disabled', false);
             }
         });
     });
 
-    function validateForm() {
-        let firstName = $('#firstName').val().trim();
-        let email = $('#cemail').val().trim();
-        let phone = $('#phone').val().trim();
-        let budget = $('#budget').val().trim();
-
+    function validateForm(firstName, email, phone, budget) {
         if (firstName === "") {
             Swal.fire({
                 icon: 'warning',

@@ -50,7 +50,7 @@ if (1==1) {
     // Set up the email details
     $sendSmtpEmail = new SendSmtpEmail([
         'subject' => 'New Form Submission',
-        'sender' => ['email' => 'le',
+        'sender' => ['email' => 'leads@americanlogoagency.com', 'name' => 'Your Name'],
         'to' => [['email' => 'info@americanlogoagency.com', 'name' => 'Recipient Name']],
         'htmlContent' => "
             <h1>New Form Submission</h1>
@@ -82,21 +82,6 @@ if (1==1) {
     echo json_encode([
         'status' => 'error',
         'message' => 'reCAPTCHA verification failed. Please try again.'
-    ]);
-}
-
-}
-
-
-?>
-message' => 'reCAPTCHA verification failed. Please try again.'
-    ]);
-}
-
-}
-
-
-?>>ry again.'
     ]);
 }
 
