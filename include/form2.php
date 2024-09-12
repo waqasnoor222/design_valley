@@ -26,9 +26,8 @@
         </div>
     </div>
     <div class="PopupForm_inputField__Y_4nR">
-        <input type="tel" id="phone" name="countryCode" class="phone">
+    <input type="tel" id="phone2" name="countryCode" class="phone">
     </div>
-  
     <div class="PopupForm_inputField__Y_4nR">
         <div class="PopupForm_input-flex__HUi23 PopupForm_budget__D5oUs">
             <input min="1" placeholder="Your Budget" class="form-control budget" type="number" value="" name="budget" id="budget">
@@ -46,11 +45,12 @@
 <!-- SweetAlert2 -->
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script>
-    var input = document.querySelector("#phone");
+    var input = document.querySelector("#phone2");
     var iti = window.intlTelInput(input, {
         // options
         utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
     });
+
 
     $(document).ready(function() {
     $('#popupForm, #formSignupPopup').off('submit').on('submit', function(e) {

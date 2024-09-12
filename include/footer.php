@@ -239,10 +239,16 @@
                             <h2>Sign Up Now</h2>
                             <h4>To Avail Exclusive Discounts</h4>
                             <p>Fill out the form below with your details to start conversation with our experts.</p>
-                            <form id="popupForm" method="POST" class="PopupForm_popupForm__Ew0Vk popup-main-form">
-                            <?php include_once 'include/form.php'; ?>
+                            <form id="formSignupPopup" method="POST" class="PopupForm_popupForm__Ew0Vk popup-main-form" novalidate>
+                                <!-- form fields go here -->
+                                 <?php
+                                 include 'include/form.php';
+                                 ?>
+                                     <button type="submit" class="Button_btn__CsQ0G undefined">Lets Make a Deal</button>
 
                             </form>
+
+
                         </div>
                     </div>
                 </div>
@@ -282,8 +288,9 @@
                             </h4>
                             <p>Fill out the form below with your details to start conversation with our experts.</p>
                             <form id="popupForm" method="POST" class="PopupForm_popupForm__Ew0Vk popup-main-form">
-                            <?php include_once 'include/form.php'; ?>
-                        </form>
+                            <?php include 'include/form2.php'; ?>
+                            <button type="submit" class="Button_btn__CsQ0G undefined">Lets Make a Deal</button>
+                             </form>
                         </div>
                     </div>
                 </div>
@@ -291,6 +298,8 @@
         </div>
     </div>
 </div>
+
+
 <script>
     // JavaScript to handle popup functionality
 
@@ -408,12 +417,12 @@
                 // Get the value from the button's value attribute
 
                 // Generate reCAPTCHA token when the button is clicked
-                    grecaptcha.ready(function() {
-                        grecaptcha.execute('YOUR_SITE_KEY', { action: 'submit' }).then(function(token) {
-                            // Set the token in the hidden input field
-                            document.getElementById('g-recaptcha-response').value = token;
-                        });
-                    });
+                    // grecaptcha.ready(function() {
+                    //     grecaptcha.execute('YOUR_SITE_KEY', { action: 'submit' }).then(function(token) {
+                    //         // Set the token in the hidden input field
+                    //         document.getElementById('g-recaptcha-response').value = token;
+                    //     });
+                    // });
 
                 var price = this.value;
                 // Check if the hidden input exists
