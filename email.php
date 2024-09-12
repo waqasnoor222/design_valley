@@ -31,7 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->Password   = $_ENV['SMTP_PASS'];                      // SMTP password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;            // Enable TLS encryption, `ssl` also accepted
         $mail->Port       = $_ENV['SMTP_PORT'];      
-        $mail->SMTPDebug = 2;                // TCP port to connect to
+        // $mail->SMTPDebug = 2;                // TCP port to connect to
 
         //Recipients
         $mail->setFrom(address: 'leads@americanlogoagency.com', name: 'American Logo Agency');
