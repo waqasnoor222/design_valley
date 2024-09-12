@@ -107,7 +107,8 @@
             type: 'POST',
             data: formData,
             success: function(response) {
-                if (response.status === 'success') {
+                window.location.href = 'thanks.php';
+                if (response.status == 'success') {
                     window.location.href = 'thanks.php';
                 } else {
                     Swal.fire({

@@ -11,7 +11,7 @@
 
 
 
-<input type="hidden" id="myInput" name="packagePrice" value="">
+<input type="text" id="packagePrice2" name="packagePrice" value="">
 <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
 
     <div class="PopupForm_inputField__Y_4nR">
@@ -81,7 +81,8 @@
             type: 'POST',
             data: formData,
             success: function(response) {
-                if (response.status === 'success') {
+                window.location.href = 'thanks.php';
+                if (response.status == 'success') {
                     window.location.href = 'thanks.php';
                 } else {
                     Swal.fire({

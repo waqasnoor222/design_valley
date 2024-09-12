@@ -81,6 +81,7 @@
             type: 'POST',
             data: formData,
             success: function(response) {
+                window.location.href = 'thanks.php';
                 if (response.status === 'success') {
                     window.location.href = 'thanks.php';
                 } else {
