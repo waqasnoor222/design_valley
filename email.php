@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->SMTPDebug = 2;                // TCP port to connect to
 
         //Recipients
-        $mail->setFrom(address: 'leads@americanlogoagency.com', 'Mailer');
+        $mail->setFrom(address: 'leads@americanlogoagency.com', name: 'American Logo Agency');
         $mail->addAddress(address: 'info@americanlogoagency.com');     // Add a recipient
 
         // Content
