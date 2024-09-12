@@ -82,16 +82,16 @@
             data: formData,
             success: function(response) {
                 window.location.href = 'thanks.php';
-                if (response.status == 'success') {
-                    window.location.href = 'thanks.php';
-                } else {
-                    Swal.fire({
-                        icon: 'error',
-                        title: 'Oops...',
-                        text: response.message,
-                        confirmButtonText: 'OK'
-                    });
-                }
+                // if (response.status == 'success') {
+                //     window.location.href = 'thanks.php';
+                // } else {
+                //     Swal.fire({
+                //         icon: 'error',
+                //         title: 'Oops...',
+                //         text: response.message,
+                //         confirmButtonText: 'OK'
+                //     });
+                // }
                 // Re-enable the submit button
                 $(this).find('button[type="submit"]').attr('disabled', false);
             },
