@@ -351,16 +351,18 @@
 
 
 <script>
-    // Select all buttons with the class 'myButton'
-    var buttons = document.querySelectorAll('.myButton');
+  var buttons = document.querySelectorAll('.myButton');
 
-    // Loop through each button and add a click event listener
-    buttons.forEach(function (button) {
-        button.addEventListener('click', function () {
-            var buttonValue = this.value; // Get the value of the clicked button
-            document.getElementById('myHeading').textContent = buttonValue; // Update the h3 element with the button value
+        // Loop through each button and add a click event listener
+        buttons.forEach(function (button) {
+            button.addEventListener('click', function () {
+                var buttonValue = this.value; // Get the value of the clicked button
+                document.getElementById('myHeading').textContent = buttonValue; // Update the h3 element with the button value
+                
+                // Heading ka text input field mein set karo
+                document.getElementById('myInput').value = buttonValue;
+            });
         });
-    });
    
 
 </script>
