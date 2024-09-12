@@ -24,15 +24,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 //  $responseKeys = json_decode($response, true);
 
 
-// Configure the API client with your Brevo API key
-$config = Configuration::getDefaultConfiguration()->setApiKey('api-key', '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');
-
-// Create an instance of the API class
-$apiInstance = new TransactionalEmailsApi(
-    new Client(),
-    $config
-);
-
 if (1==1) {
     // Retrieve form data
     $firstName = $_POST['firstName'] ?? 'Not provided';
@@ -44,7 +35,7 @@ if (1==1) {
     $packagePrice = $_POST['packagePrice'] ?? 'Not provided'; // Ensure this matches your form field
 
     // Configure the Brevo API client
-    $config = Configuration::getDefaultConfiguration()->setApiKey('api-key', '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');
+    $config = Configuration::getDefaultConfiguration()->setApiKey('api-key', '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');
     $apiInstance = new TransactionalEmailsApi(new Client(), $config);
 
     // Set up the email details
