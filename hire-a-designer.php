@@ -1,4 +1,5 @@
 <?php 
+ $pageTitle = "Hire A Designer";
  include 'include/header.php';
 ?>
 

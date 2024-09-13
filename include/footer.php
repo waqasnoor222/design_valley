@@ -91,7 +91,7 @@
                 </ul>
                 <a href="index.php">
                     <img alt="logosdsd" loading="lazy" decoding="async" data-nimg="1" style="color:transparent"
-                        src="assets/images/logo_american.png"></a>
+                        src="assets/images/ALA -White.png"></a>
             </div>
         </div>
         <div class="Footer_copyright__Bdlh1">

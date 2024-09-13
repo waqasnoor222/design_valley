@@ -1,4 +1,5 @@
 <?php 
+ $pageTitle = "Terms Of Service";
  include 'include/header.php';
 ?>
     <section class="terms_main__ygNSR">

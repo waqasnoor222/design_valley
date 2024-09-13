@@ -63,11 +63,17 @@
 
     <script
         src="./Custom Logo Design Company and Professional Logo Design Services_files/layout-822b0def1735e417.js"></script>
-    <link rel="icon" href="assets/images/American.png">
+    <link rel="icon" href="assets/images/ALA-fav.png">
     <script src="./Custom Logo Design Company and Professional Logo Design Services_files/polyfills-c67a75d1b6f99dc8.js"
         crossorigin="" nomodule=""></script>
-    <title>American Logo Agency | Home</title>
+    <title>American Logo Agency | <?php echo $pageTitle; ?></title>
 </head>
+
+<?php
+// Get the current file name
+$current_page = basename($_SERVER['PHP_SELF']);
+?>
+
 
 <body cz-shortcut-listen="true" class="">
     <div id="preloader">
@@ -154,23 +160,23 @@
                     <div class="Header_right-info__pvJN4">
                         <div class="Header_header-menu__nk_AF">
                             <ul>
-                                <li><a class="Header_active__rWiBf" href="index.php">Logo Design</a></li>
-                                <li class="Header_li-hover__KNXtM "><a class="" href="website-design.php">Website
+                                <li><a class="<?php echo ($current_page == 'index.php') ? 'Header_active__rWiBf' : ''; ?>" href="index.php">Logo Design</a></li>
+                                <li class="Header_li-hover__KNXtM "><a class="<?php echo ($current_page == 'website-design.php') ? 'Header_active__rWiBf' : ''; ?>" href="website-design.php">Website
                                         Design</a>
                                     <ul class="Header_sub-menu__HkhFb">
-                                        <li><a class="" href="cms-development.php">CMS Development</a></li>
-                                        <li><a class="" href="ecommerce-development.php">Ecommerce Development</a></li>
-                                        <li><a class="" href="hire-a-designer.php">Hire a Designer</a></li>
+                                        <li><a class="<?php echo ($current_page == 'cms-development.php') ? 'Header_active__rWiBf' : ''; ?>" href="cms-development.php">CMS Development</a></li>
+                                        <li><a class="<?php echo ($current_page == 'ecommerce-development.php') ? 'Header_active__rWiBf' : ''; ?>" href="ecommerce-development.php">Ecommerce Development</a></li>
+                                        <li><a class="<?php echo ($current_page == 'hire-a-designer.php') ? 'Header_active__rWiBf' : ''; ?>" href="hire-a-designer.php">Hire a Designer</a></li>
                                     </ul>
                                 </li>
-                                <li><a class="" href="branding.php">Branding</a></li>
-                                <li><a class="" href="portfolio.php">Portfolio</a></li>
-                                <li><a class="" href="packages.php">Packages</a></li>
+                                <li><a class="<?php echo ($current_page == 'branding.php') ? 'Header_active__rWiBf' : ''; ?>" href="branding.php">Branding</a></li>
+                                <li><a class="<?php echo ($current_page == 'portfolio.php') ? 'Header_active__rWiBf' : ''; ?>" href="portfolio.php">Portfolio</a></li>
+                                <li><a class="<?php echo ($current_page == 'packages.php') ? 'Header_active__rWiBf' : ''; ?>" href="packages.php">Packages</a></li>
                                 <!-- <li><a class="" href="logo-design-dallas.php">Location</a></li> -->
                                 <li class="Header_li-hover__KNXtM "><a class="" href="">Insight</a>
                                     <ul class="Header_sub-menu__HkhFb">
-                                        <li><a class="" href="about-us.php">About Us</a></li>
-                                        <li><a class="" href="contact-us.php">Contact Us</a></li>
+                                        <li><a class="<?php echo ($current_page == 'about-us.php') ? 'Header_active__rWiBf' : ''; ?>" href="about-us.php">About Us</a></li>
+                                        <li><a class="<?php echo ($current_page == 'contact-us.php') ? 'Header_active__rWiBf' : ''; ?>" href="contact-us.php">Contact Us</a></li>
                                     </ul>
                                 </li>
                                 <button class="openPopupBtn">NEED A DESIGN?</button>

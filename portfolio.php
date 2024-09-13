@@ -1,4 +1,5 @@
 <?php 
+ $pageTitle = "Portfolio";
  include 'include/header.php';
 ?>
 <section class="BannerInner_main-banner__z0rev">

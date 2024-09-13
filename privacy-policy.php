@@ -1,4 +1,5 @@
 <?php 
+ $pageTitle = "Privacy Policy";
  include 'include/header.php';
 ?>
 

@@ -1,4 +1,5 @@
 <?php 
+ $pageTitle = "Home";
  include 'include/header.php';
 ?>
         <div class="call-to-action">

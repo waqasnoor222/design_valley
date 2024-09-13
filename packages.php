@@ -1,4 +1,5 @@
 <?php 
+ $pageTitle = "Packages";
  include 'include/header.php';
 ?>
 
