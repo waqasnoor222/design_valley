@@ -48,17 +48,17 @@
                 </div>
                 <div class="ContactFrom_inputField__GMUX1">
                     <div class="ContactFrom_input-flex___f9qM ContactFrom_email__eovGH">
-                    <input placeholder="Your email address*" class="form-control cemail" type="email" value="" name="cemail" id="cemail">
+                    <input placeholder="Your email address*" class="form-control cemail" type="email" value="" name="cemail" id="cemail" required>
                     </div>
                 </div>
                 <div class="ContactFrom_inputField__GMUX1">
                     <div class="ContactFrom_input-flex___f9qM ContactFrom_call__64O0U">
-                    <input type="tel" id="phone2" name="countryCode" class="phone">
+                    <input type="tel" id="phone2" name="countryCode" class="phone" required>
                     </div>
                 </div>
                 <div class="ContactFrom_inputField__GMUX1">
                     <div class="ContactFrom_input-flex___f9qM ContactFrom_message__P6hEa">
-                    <textarea rows="4" name="message" placeholder="Your message" type="text" class="form-control message" id="message"></textarea>
+                    <textarea rows="4" name="message" placeholder="Your message" type="text" class="form-control message" id="message" required></textarea>
                     </div>
                 </div>
               

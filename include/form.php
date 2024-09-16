@@ -22,11 +22,11 @@
     </div>
     <div class="PopupForm_inputField__Y_4nR">
         <div class="PopupForm_input-flex__HUi23 PopupForm_email__DbL35">
-            <input placeholder="Your email address*" class="form-control cemail" type="email" value="" name="cemail" id="cemail">
+            <input placeholder="Your email address*" class="form-control cemail" type="email" value="" name="cemail" id="cemail" required>
         </div>
     </div>
     <div class="PopupForm_inputField__Y_4nR">
-        <input type="tel" id="phone" name="countryCode" class="phone">
+        <input type="tel" id="phone" name="countryCode" class="phone" required>
     </div>
   
     <div class="PopupForm_inputField__Y_4nR">
@@ -36,7 +36,7 @@
     </div>
     <div class="PopupForm_inputField__Y_4nR">
         <div class="PopupForm_input-flex__HUi23 PopupForm_message__UCI8V">
-            <textarea rows="4" name="message" placeholder="Your message" type="text" class="form-control message" id="message"></textarea>
+            <textarea required rows="4" name="message" placeholder="Your message" type="text" class="form-control message" id="message"></textarea>
         </div>
     </div>
 
