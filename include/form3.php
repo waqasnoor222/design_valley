@@ -180,6 +180,17 @@
             return false;
         }
 
+        if (message === "") {
+            Swal.fire({
+                icon: 'warning',
+                title: 'Validation Error',
+                text: 'Message is required.',
+                confirmButtonText: 'OK'
+            });
+            return false;
+        }
+
+
         // Email pattern validation
         let emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
         if (!emailPattern.test(email)) {

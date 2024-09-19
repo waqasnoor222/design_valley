@@ -110,7 +110,7 @@
         });
     });
 
-    function validateForm(firstName, email, phone, budget) {
+    function validateForm(firstName, email, phone, budget,message) {
         if (firstName === "") {
             Swal.fire({
                 icon: 'warning',
@@ -163,6 +163,17 @@
             });
             return false;
         }
+
+        if (message === "") {
+            Swal.fire({
+                icon: 'warning',
+                title: 'Validation Error',
+                text: 'message is required.',
+                confirmButtonText: 'OK'
+            });
+            return false;
+        }
+
 
         if (budget === "" || isNaN(budget) || parseFloat(budget) <= 0) {
             Swal.fire({
