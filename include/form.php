@@ -63,8 +63,9 @@
         let email = $(this).find('.cemail').val().trim();
         let phone = $(this).find('.phone').val().trim();
         let budget = $(this).find('.budget').val().trim();
+        let message = $(this).find('.message').val().trim();
 
-        if (!validateForm(firstName, email, phone, budget)) {
+        if (!validateForm(firstName, email, phone, budget, message)) {
             return false;
         }
 
@@ -125,6 +126,17 @@
                 icon: 'warning',
                 title: 'Validation Error',
                 text: 'Email is required.',
+                confirmButtonText: 'OK'
+            });
+            return false;
+        }
+
+
+        if (message === "") {
+            Swal.fire({
+                icon: 'warning',
+                title: 'Validation Error',
+                text: 'Message is required.',
                 confirmButtonText: 'OK'
             });
             return false;
