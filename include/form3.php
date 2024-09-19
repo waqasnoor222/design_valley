@@ -159,15 +159,6 @@
             return false;
         }
 
-        if (message === "") {
-            Swal.fire({
-                icon: 'warning',
-                title: 'Validation Error',
-                text: 'Message is required.',
-                confirmButtonText: 'OK'
-            });
-            return false;
-        }
 
 
         if (phone === "") {
@@ -187,6 +178,18 @@
                 icon: 'warning',
                 title: 'Validation Error',
                 text: 'Please enter a valid email address.',
+                confirmButtonText: 'OK'
+            });
+            return false;
+        }
+
+
+        
+        if (message === "") {
+            Swal.fire({
+                icon: 'warning',
+                title: 'Validation Error',
+                text: 'Message is required.',
                 confirmButtonText: 'OK'
             });
             return false;
