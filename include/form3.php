@@ -53,7 +53,7 @@
                 </div>
                 <div class="ContactFrom_inputField__GMUX1">
                     <div class="ContactFrom_input-flex___f9qM ContactFrom_call__64O0U">
-                    <input type="tel" id="phone2" name="countryCode" class="phone" required>
+                    <input type="number" id="phone2" name="countryCode" class="phone" required>
                     </div>
                 </div>
                 <div class="ContactFrom_inputField__GMUX1">

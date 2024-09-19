@@ -26,7 +26,7 @@
         </div>
     </div>
     <div class="PopupForm_inputField__Y_4nR">
-    <input type="tel" id="phone2" name="countryCode" class="phone" required>
+    <input type="number" id="phone2" name="countryCode" class="phone" required>
     </div>
     <div class="PopupForm_inputField__Y_4nR">
         <div class="PopupForm_input-flex__HUi23 PopupForm_budget__D5oUs">
