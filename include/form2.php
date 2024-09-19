@@ -35,7 +35,7 @@
     </div>
     <div class="PopupForm_inputField__Y_4nR">
         <div class="PopupForm_input-flex__HUi23 PopupForm_message__UCI8V">
-            <textarea rows="4" name="message" placeholder="Your message" type="text" class="form-control message" id="message" required></textarea>
+            <textarea rows="4" name="message" placeholder="Your message" type="text" class="form-control message" id="message3" required></textarea>
         </div>
     </div>
 

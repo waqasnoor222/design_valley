@@ -239,7 +239,7 @@
                             <h2>Sign Up Now</h2>
                             <h4>To Avail Exclusive Discounts</h4>
                             <p>Fill out the form below with your details to start conversation with our experts.</p>
-                            <form id="formSignupPopup" method="POST" class="PopupForm_popupForm__Ew0Vk popup-main-form" novalidate>
+                            <form id="formSignupPopup" method="POST" class="PopupForm_popupForm__Ew0Vk popup-main-form">
                                 <!-- form fields go here -->
                                  <?php
                                  include 'include/form.php';

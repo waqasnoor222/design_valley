@@ -53,12 +53,12 @@
                 </div>
                 <div class="ContactFrom_inputField__GMUX1">
                     <div class="ContactFrom_input-flex___f9qM ContactFrom_call__64O0U">
-                    <input type="number" id="phone2" name="countryCode" class="phone" required>
+                    <input type="number" id="phone2" name="countryCode" class="phone2" required>
                     </div>
                 </div>
                 <div class="ContactFrom_inputField__GMUX1">
                     <div class="ContactFrom_input-flex___f9qM ContactFrom_message__P6hEa">
-                    <textarea rows="4" name="message" placeholder="Your message" type="text" class="form-control message" id="message" required></textarea>
+                    <textarea rows="4" name="message" placeholder="Your message" type="text" class="form-control message2" id="message2" required></textarea>
                     </div>
                 </div>
               
@@ -90,8 +90,8 @@
             // Scope the selectors to this specific form
         let firstName = $(this).find('.firstName').val().trim();
         let email = $(this).find('.cemail').val().trim();
-        let phone = $(this).find('.phone').val().trim();
-        let message = $(this).find('.message').val().trim();
+        let phone = $(this).find('.phone2').val().trim();
+        let message = $(this).find('.message2').val().trim();
 
         if (!validateForm(firstName, email, phone, message)) {
             return false;
@@ -138,7 +138,7 @@
         });
     });
 
-    function validateForm(firstName, email, phone, budget, message) {
+    function validateForm(firstName, email, phone, message) {
         if (firstName === "") {
             Swal.fire({
                 icon: 'warning',

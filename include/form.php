@@ -31,7 +31,7 @@
   
     <div class="PopupForm_inputField__Y_4nR">
         <div class="PopupForm_input-flex__HUi23 PopupForm_budget__D5oUs">
-            <input min="1" placeholder="Your Budget" class="form-control budget" type="number" value="" name="budget" id="budget">
+            <input min="1" placeholder="Your Budget" class="form-control budget" type="number" value="" name="budget" id="budget" required>
         </div>
     </div>
     <div class="PopupForm_inputField__Y_4nR">
