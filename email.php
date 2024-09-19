@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $phone = $_POST['phone'] ?? 'Not provided';
     $budget = $_POST['budget'] ?? 'Not provided';
     $message = $_POST['message'] ?? 'Not provided';
-    $packagePrice = $_POST['packagePrice'] ?? 'Not provided';
+    $packagePrice = $_POST['packagePrice'] ?? null;
 
     // Create a new PHPMailer instance
     $mail = new PHPMailer(true);
@@ -37,19 +37,32 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->setFrom(address: 'leads@americanlogoagency.com', name: 'American Logo Agency');
         $mail->addAddress(address: 'info@americanlogoagency.com');     // Add a recipient
 
-        // Content
-        $mail->isHTML(true);                                        // Set email format to HTML
-        $mail->Subject = 'New Form Submission';
-        $mail->Body    = "
+        //Create the email body
+        $emailBody = "
             <h1>New Form Submission</h1>
             <p><strong>Name:</strong> $firstName</p>
             <p><strong>Email:</strong> $email</p>
             <p><strong>Phone:</strong> +$countryCode $phone</p>
             <p><strong>Budget:</strong> $budget</p>
             <p><strong>Message:</strong> $message</p>
-            <p><strong>Package Price:</strong> $packagePrice</p>
         ";
-        $mail->AltBody = "Name: $firstName\nEmail: $email\nPhone: +$countryCode $phone\nBudget: $budget\nMessage: $message\nPackage Price: $packagePrice";
+
+         // Conditionally add the Package Price if provided
+         if ($packagePrice) {
+            $emailBody .= "<p><strong>Package Price:</strong> $packagePrice</p>";
+        }
+
+        // Content
+        $mail->isHTML(true);                                        // Set email format to HTML
+        $mail->Subject = 'New Form Submission';
+        $mail->Body    = $emailBody;
+
+        // Create the plain-text alternative
+        $altBody = "Name: $firstName\nEmail: $email\nPhone: +$countryCode $phone\nBudget: $budget\nMessage: $message";
+        if ($packagePrice) {
+            $altBody .= "\nPackage Price: $packagePrice";
+        }
+        $mail->AltBody = $altBody;
 
         $mail->send();
         echo json_encode([
