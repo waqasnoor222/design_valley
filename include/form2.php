@@ -130,6 +130,16 @@
             return false;
         }
 
+        if (phone === "") {
+            Swal.fire({
+                icon: 'warning',
+                title: 'Validation Error',
+                text: 'Phone number is required.',
+                confirmButtonText: 'OK'
+            });
+            return false;
+        }
+
         // Email pattern validation
         let emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
         if (!emailPattern.test(email)) {

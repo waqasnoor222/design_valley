@@ -142,6 +142,16 @@
             return false;
         }
 
+        if (phone === "") {
+            Swal.fire({
+                icon: 'warning',
+                title: 'Validation Error',
+                text: 'Phone number is required.',
+                confirmButtonText: 'OK'
+            });
+            return false;
+        }
+
         if (budget === "" || isNaN(budget) || parseFloat(budget) <= 0) {
             Swal.fire({
                 icon: 'warning',
