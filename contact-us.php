@@ -26,7 +26,7 @@
         </div>
         <div class="ContactFrom_right-info__M_4Wg">
             <h2>Get Your Project <br>Started Today</h2>
-            <form id="contactForm" method="POST" novalidate="" class="ContactFrom_contact-form___V6sh">
+            <form id="contactForm" method="POST" novalidate class="ContactFrom_contact-form___V6sh">
 
             <?php include 'include/form3.php'; ?>
             <button type="submit" class="Button_btn__CsQ0G undefined">
