@@ -15,9 +15,9 @@
     <link rel="stylesheet" href="assets/css/swipper.css">
     <script src="assets/js/swipper.js"></script>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css'>
-    <link rel="preload" as="script" fetchpriority="low"
+    <!-- <link rel="preload" as="script" fetchpriority="low"
         href="./Custom Logo Design Company and Professional Logo Design Services_files/7a41507ed21479af.css"
-        crossorigin="">
+        crossorigin=""> -->
     <link rel="preload" as="script" fetchpriority="low"
         href="./Custom Logo Design Company and Professional Logo Design Services_files/webpack-d6025ebf1fc18542.js"
         crossorigin="">
