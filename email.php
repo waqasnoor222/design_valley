@@ -10,12 +10,13 @@ $dotenv = Dotenv::createImmutable(__DIR__);
 $dotenv->load();
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    return 'ali';
     // Retrieve form data
     $firstName = $_POST['firstName'] ?? 'Not provided';
     $email = $_POST['cemail'] ?? 'Not provided';
     $countryCode = $_POST['countryCode'] ?? 'Not provided';
     $phone = $_POST['phone'] ?? 'Not provided';
-    $budget = $_POST['budget'] ?? 'Not provided';
+    $budget = $_POST['budget'] ?? null;
     $message = $_POST['message'] ?? 'Not provided';
     $packagePrice = $_POST['packagePrice'] ?? null;
 
@@ -43,13 +44,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <p><strong>Name:</strong> $firstName</p>
             <p><strong>Email:</strong> $email</p>
             <p><strong>Phone:</strong> +$countryCode $phone</p>
-            <p><strong>Budget:</strong> $budget</p>
+           
             <p><strong>Message:</strong> $message</p>
         ";
 
          // Conditionally add the Package Price if provided
          if ($packagePrice) {
             $emailBody .= "<p><strong>Package Price:</strong> $packagePrice</p>";
+        }
+        // Conditionally add the Package Price if provided
+        if ($budget) {
+            $budget .= " <p><strong>Budget:</strong> $budget</p>";
         }
 
         // Content
@@ -58,9 +63,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->Body    = $emailBody;
 
         // Create the plain-text alternative
-        $altBody = "Name: $firstName\nEmail: $email\nPhone: +$countryCode $phone\nBudget: $budget\nMessage: $message";
+        $altBody = "Name: $firstName\nEmail: $email\nPhone: +$countryCode $phone\nMessage: $message";
         if ($packagePrice) {
             $altBody .= "\nPackage Price: $packagePrice";
+        }
+        if ($budget) {
+            $budget .= "\nBudget: $budget";
         }
         $mail->AltBody = $altBody;
 
