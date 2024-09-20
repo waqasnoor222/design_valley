@@ -30139,4 +30139,9 @@ hr {
   margin-top: 5px;
   display: none;
 }
-
+@media (max-width: 767px) {
+  .Footer_main-footer__k5FIT .Footer_footer-grid__jDrWx .Footer_right-info__aYxGo img {
+      max-width: 240px;
+      min-height: 100%;
+  }
+}
