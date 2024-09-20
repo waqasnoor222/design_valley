@@ -28114,6 +28114,7 @@ hr {
     position: relative;
     padding: 50px 30px
   }
+ 
 }
 
 
@@ -29050,6 +29051,7 @@ hr {
   .contact_social-main__YGQu6 .contact_icons__sHwfM .contact_icon__7nddQ img {
     scale: .8
   }
+ 
 }
 
 #gallery .swiper-slide a {
@@ -30009,6 +30011,19 @@ hr {
   }
 }
 
+@media(max-width: 767px) {
+.Button_btn__CsQ0G{
+  font-size: 11px;
+}
+.MobileMenu_header-top__0QUl3 img{
+  width: 150px;
+  height: 60px;
+}
+.OurServices_main__DYNPC .OurServices_main-info__bY59S hr{
+  margin: 15px auto !important;
+}
+}
+
 
 
 
@@ -30041,8 +30056,7 @@ hr {
 
 #mobile-menu ul li ul li {
   border-bottom: 0;
-  padding: 7px 28px;
-
+  padding: 10px 28px;
 }
 
 #mobile-menu ul li a {
@@ -30119,7 +30133,7 @@ hr {
   color: #7b7a7a;
 }
 .Header_active__rWiBf{
-  color: green !important;
+  /* color: green !important; */
 }
 
 

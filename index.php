@@ -214,7 +214,7 @@
                             <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="6"
                                 style="width: 550.5px; margin-right: 15px;">
                                 <div>
-                                    <a href="https://www.logodesignvalley.com/image/portfolio/branding/b14.webp"
+                                    <a href="assets/images/b14.jpg"
                                         data-fancybox="gallery">
                                         <svg stroke="currentColor" fill="currentColor" stroke-width="0"
                                             viewBox="0 0 448 512" height="1em" width="1em"
@@ -235,7 +235,7 @@
                             <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="7"
                                 style="width: 550.5px; margin-right: 15px;">
                                 <div>
-                                    <a href="https://www.logodesignvalley.com/image/portfolio/branding/b15.webp"
+                                    <a href="assets/images/b15.jpg"
                                         data-fancybox="gallery">
                                         <svg stroke="currentColor" fill="currentColor" stroke-width="0"
                                             viewBox="0 0 448 512" height="1em" width="1em"
@@ -256,7 +256,7 @@
                             <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="0"
                                 style="width: 550.5px; margin-right: 15px;">
                                 <div>
-                                    <a href="https://www.logodesignvalley.com/image/portfolio/branding/b8.webp"
+                                    <a href="assets/images/b8.jpg"
                                         data-fancybox="gallery">
                                         <svg stroke="currentColor" fill="currentColor" stroke-width="0"
                                             viewBox="0 0 448 512" height="1em" width="1em"
@@ -277,7 +277,7 @@
                             <div class="swiper-slide" data-swiper-slide-index="1"
                                 style="width: 550.5px; margin-right: 15px;">
                                 <div>
-                                    <a href="https://www.logodesignvalley.com/image/portfolio/branding/b9.webp"
+                                    <a href="assets/images/b9.jpg"
                                         data-fancybox="gallery">
                                         <svg stroke="currentColor" fill="currentColor" stroke-width="0"
                                             viewBox="0 0 448 512" height="1em" width="1em"
@@ -298,7 +298,7 @@
                             <div class="swiper-slide" data-swiper-slide-index="2"
                                 style="width: 550.5px; margin-right: 15px;">
                                 <div>
-                                    <a href="https://www.logodesignvalley.com/image/portfolio/branding/b10.webp"
+                                    <a href="assets/images/b10.jpg"
                                         data-fancybox="gallery">
                                         <svg stroke="currentColor" fill="currentColor" stroke-width="0"
                                             viewBox="0 0 448 512" height="1em" width="1em"
@@ -319,7 +319,7 @@
                             <div class="swiper-slide" data-swiper-slide-index="3"
                                 style="width: 550.5px; margin-right: 15px;">
                                 <div>
-                                    <a href="https://www.logodesignvalley.com/image/portfolio/branding/b11.webp"
+                                    <a href="assets/images/b11.jpg"
                                         data-fancybox="gallery">
                                         <svg stroke="currentColor" fill="currentColor" stroke-width="0"
                                             viewBox="0 0 448 512" height="1em" width="1em"
@@ -340,7 +340,7 @@
                             <div class="swiper-slide" data-swiper-slide-index="4"
                                 style="width: 550.5px; margin-right: 15px;">
                                 <div>
-                                    <a href="https://www.logodesignvalley.com/image/portfolio/branding/b12.webp"
+                                    <a href="assets/images/b12.jpg"
                                         data-fancybox="gallery">
                                         <svg stroke="currentColor" fill="currentColor" stroke-width="0"
                                             viewBox="0 0 448 512" height="1em" width="1em"
@@ -361,7 +361,7 @@
                             <div class="swiper-slide" data-swiper-slide-index="5"
                                 style="width: 550.5px; margin-right: 15px;">
                                 <div>
-                                    <a href="https://www.logodesignvalley.com/image/portfolio/branding/b13.webp"
+                                    <a href="assets/images/b13.jpg"
                                         data-fancybox="gallery">
                                         <svg stroke="currentColor" fill="currentColor" stroke-width="0"
                                             viewBox="0 0 448 512" height="1em" width="1em"
@@ -515,13 +515,13 @@
                                 </div>
                             </div>
                         </div>
-                        <div
+                        <!-- <div
                             class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
                             <span class="swiper-pagination-bullet"></span><span
                                 class="swiper-pagination-bullet"></span><span
                                 class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span
                                 class="swiper-pagination-bullet"></span>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

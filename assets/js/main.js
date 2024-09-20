@@ -6,7 +6,32 @@ $('#gallery').slick({
     draggable: true,
     speed: 300,
     autoplaySpeed: 1000,
-    arrows: false
+    arrows: false,
+    responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
 });
 
 $('.port_slider').slick({
@@ -42,7 +67,7 @@ $('.testim_slider').slick({
 
 $(document).ready(function () {
     // Swiper: Slider
-    new Swiper('.profo_slider', {
+    const swiper = new Swiper('.profo_slider', {
         loop: true,
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
@@ -52,8 +77,7 @@ $(document).ready(function () {
             enabled: true,
             delay: 0,
             pauseOnMouseEnter: false,
-            disableOnInteraction: true,
-            reverseDirection: true
+            disableOnInteraction: true
 
         },
         centeredSlides: true,
@@ -77,6 +101,10 @@ $(document).ready(function () {
             }
         }
     });
+    function reverseAutoplay() {
+        swiper.slidePrev(); // Move the slider to the previous slide
+    }
+    setInterval(reverseAutoplay, 300); // Change slide every 3 seconds (3000ms)
 });
 
 
@@ -122,10 +150,25 @@ $(document).ready(function () {
         paginationClickable: true,
         centeredSlides: true,
         loop: false,
-        navigation: false,
+        // navigation: false,/
         slidesPerView: 'auto',
         speed: 4000,
         slidesPerView: 3,
+        dots: false,
+        breakpoints: {
+            1920: {
+                slidesPerView: 2,
+                spaceBetween: 30
+            },
+            1028: {
+                slidesPerView: 2,
+                spaceBetween: 30
+            },
+            480: {
+                slidesPerView: 1,
+                spaceBetween: 10
+            }
+        }
     });
 });
 
