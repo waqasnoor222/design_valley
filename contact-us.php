@@ -75,9 +75,9 @@
         <div class="contact_map-info__ZUzM1">
             <div class="contact_box__DpZCl">
                 <h4>American Logo Agency</h4>
-                <p> Office 701 7th Floor, Anum Estate Building, Shahrah-e-Faisal Rd, Karachi Memon Co-operative Housing Society Umar Colony, Karachi, Karachi City, Sindh</p>
+                <p>9854 National Blvd # 1025, Los Angeles, CA 90034, United States</p>
             </div>
-            <a class="Button_btn__CsQ0G  undefined" target="_blank" href="https://www.google.com/maps/place/MeezoTech/@24.8658328,67.0785589,17z/data=!3m1!4b1!4m6!3m5!1s0x3eb33f8e8a133c5b:0x7fc37a64310b8e7e!8m2!3d24.865828!4d67.0811338!16s%2Fg%2F11j19ftyx3?entry=ttu&g_ep=EgoyMDI0MDkwOS4wIKXMDSoASAFQAw%3D%3D">VIEW LARGER MAP</a>
+            <a class="Button_btn__CsQ0G  undefined" target="_blank" href="https://www.google.com/maps/place/9854+National+Blvd+%231025,+Los+Angeles,+CA+90034,+USA/@34.030561,-118.403689,16.75z/data=!4m5!3m4!1s0x80c2bbd31009e77d:0xbfe948c5af2b98d1!8m2!3d34.0304869!4d-118.400973?entry=ttu&g_ep=EgoyMDI0MDkxOC4xIKXMDSoASAFQAw%3D%3D">VIEW LARGER MAP</a>
             <div class="contact_circle__E9yR9"></div>
         </div>
     </div>
