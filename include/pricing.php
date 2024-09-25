@@ -348,7 +348,7 @@
                                                 href="portfolio.html">View Portfolio</a>
                                         </div>
                                         <div class="Pricing_right-side__6_6yP">
-                                            <!--   -->
+                                        <img alt="logosdsd" loading="lazy" width="250" decoding="async" data-nimg="1" style="color:transparent" src="./assets/images/logo_american.png">
                                         </div>
                                     </div>
                                 </div>
