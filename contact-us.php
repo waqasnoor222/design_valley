@@ -75,9 +75,10 @@
         <div class="contact_map-info__ZUzM1">
             <div class="contact_box__DpZCl">
                 <h4>American Logo Agency</h4>
-                <p>9854 National Blvd # 1025, Los Angeles, CA 90034, United States</p>
+                <p>6th Floor, Suite 621, Lexington Ave Suite 300 RM 332, New York, NY, United States, 10174
+                </p>
             </div>
-            <a class="Button_btn__CsQ0G  undefined" target="_blank" href="https://www.google.com/maps/place/9854+National+Blvd+%231025,+Los+Angeles,+CA+90034,+USA/@34.030561,-118.403689,16.75z/data=!4m5!3m4!1s0x80c2bbd31009e77d:0xbfe948c5af2b98d1!8m2!3d34.0304869!4d-118.400973?entry=ttu&g_ep=EgoyMDI0MDkxOC4xIKXMDSoASAFQAw%3D%3D">VIEW LARGER MAP</a>
+            <a class="Button_btn__CsQ0G  undefined" target="_blank" href="https://www.google.com/maps/place/Lexington+Ave,+New+York,+NY,+USA/@40.7733439,-73.9603091,59m/data=!3m1!1e3!4m6!3m5!1s0x89c258bdc840977b:0xea3516d3723d8f20!8m2!3d40.7733439!4d-73.9600802!16zL20vMDR0cThq!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MDEwNi4xIKXMDSoASAFQAw%3D%3D">VIEW LARGER MAP</a>
             <div class="contact_circle__E9yR9"></div>
         </div>
     </div>
